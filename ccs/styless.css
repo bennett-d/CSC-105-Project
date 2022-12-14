@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    padding: 20px; 
+    width: 200px;
+    height: 150px;
+    text-align: center; 
+    font-style: italic;
+    
+}
+
+ul{
+    
+        list-style-type: none;
+        padding: 0;
+        border: 1px solid #ddd;
+      }
+      
+      ul li {
+        padding: 8px 16px;
+        border-bottom: 1px solid #ddd;
+      }
+      
+      ul li:last-child {
+        border-bottom: none
+      
+}
+
+h1{
+    font-style: Lucida Handwriting;
+    font-weight: 100;
+    margin-top: 0;
+    text-align: center;
+}
+
+#menu-outer {
+	height: 84px;
+	background-color:aliceblue;
+}
+
+.table {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
+
+ul#horizontal-list {
+	min-width: 696px;
+	list-style: none;
+	padding-top: 20px;
+	}
+	ul#horizontal-list li {
+		display: inline;
+	}
+  
+  
+
+
+
+  img {
+    border-radius: 50%;
+  }
+
+  p::first-letter { 
+    font-size: 200%;
+    color: #8A2BE2;
+  }
+  
+
+form{
+    background-color: #F6F8FA;
+    border: 1px solid hs1(210, 18%, 87%);
+    padding: 16px;
+    max-width: 308px;
+    width: 100%
+}
+
+
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */  
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+
+
+
+  /* Style all for social media icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
